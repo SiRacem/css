@@ -1,0 +1,413 @@
+/*=============== BASE ===============*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*=============== BODY ===============*/
+body {
+    font-family: "Montserrat", sans-serif;
+    height:200vh;
+    overflow-x: hidden;
+}
+
+/*=============== SIDEBAR ===============*/
+.sidebar{
+    position: fixed;
+    display: none;
+    height: 100%;
+    width: 60%;
+    font-size: 35px;
+    background-color: black;
+    padding-top: 150px;
+    right: 0px;
+    text-align: center;
+    z-index:1000;
+}
+
+.sidebar a{
+    text-decoration: none;
+    color: #757575;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.sidebar li{
+    letter-spacing: 1px;
+    padding: 15px 10px;
+    font-weight: lighter;
+    background-color: #000;
+    border-bottom: none;
+}
+
+.sidebar a:hover{
+    color: white;
+}
+
+.fa-remove{
+    position: absolute;
+    color: white;
+    cursor: pointer;
+    top: 0;
+    right: 0;
+    font-size: 48px !important;
+    padding: 12px;
+}
+
+.fa:hover{
+    background-color: whitesmoke;
+    color: #000;
+}
+
+.bars img{
+    width: 40px;
+    height: 70px;
+    position: fixed;
+    right: 10px;
+    cursor: pointer;
+    z-index:1000;
+}
+
+.bars:hover + .sidebar{
+    display:block;
+} 
+
+.sidebar:hover{
+    display:block
+}
+
+/*=============== IMG GIRL ===============*/
+.img_girl img{
+    width: 40%;
+    height: 100%;
+    position: fixed;
+}
+
+.main-content{
+        text-align: center;
+        display: inline;
+        position: absolute;
+        width: 60%;
+        top: 0;
+        right: 0;
+        margin-top: 12%;
+        z-index:2;
+        font-family: "Montserrat", sans-serif;
+}
+
+.full-name{
+    font-size: 64px!important;
+}
+
+.desc{
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 15px auto;
+}
+
+button{
+    font-family: "Montserrat",sans-serif;
+    border: none;
+    background-color: #f1f1f1 !important;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.download:hover{
+    background-color: #ccc !important;
+}
+
+.img-reputation{
+    margin: 25px 0 25px 25px;
+    border-radius: 50%;
+    width:80px !important;
+    height:80px;
+}
+
+.portfolio-content{
+    position: absolute;
+    width: 60%;
+    top: 0;
+    right: 0;
+    margin-top: 40%;
+    color: #757575!important;
+    font-family: "Montserrat", sans-serif;
+}
+
+.portfolio-content h2{
+    font-weight: 400;
+    font-size: 30px;
+    margin: 0px 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #eee;
+}
+
+.portfolio-content img{
+    width: 370px;
+    margin: 0px 25px 5px 25px;
+}
+
+.img1_partie2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 78px;
+}
+
+.img2_partie2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 460px;
+}
+
+.img3_partie2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 715px;
+}
+
+.img4_partie2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 957px;
+}
+
+.about-content h2{
+    font-weight: 400;
+    font-size: 30px;
+    margin: 100px 25px 0;
+}
+
+.about-content p{
+    margin: 25px 0 25px 25px;
+}
+
+.skill-content h5{
+    margin: 25px 0 25px 25px;
+    letter-spacing: 4px;
+    font-weight: 600;
+}
+
+.skill-bar{
+    width: 94%;
+    height: 40px;
+    background-color: #f1f1f1 !important;
+    margin: 0 3%;
+}
+
+.skill-pourcentage-photography{
+    background-color: #616161;
+    width: 95%;
+    height: 40px;
+}
+
+.pourcentage{
+    text-align: center;
+    color: white;
+    padding-top: 8px;
+}
+
+.skill-pourcentage-Web-Design{
+    background-color: #616161;
+    width: 85%;
+    height: 40px;
+}
+
+.skill-pourcentage-Photoshop{
+    background-color: #616161;
+    width: 80%;
+    height: 40px;
+}
+
+.four-titles{
+    background-color: #616161;
+    width: 94%;
+    height: 100px;
+    margin: 25px 25px;
+    text-align: center;
+}
+
+.all-title{
+    display: inline-block;
+    margin: 25px 25px 0 0;
+    color: white;
+    font-weight: 200;
+    width: 20%;
+    font-size: 20px;
+}
+
+.all-title:nth-child(4){
+    width: 15%;
+}
+
+.download2{
+    margin-left: 25px;
+}
+
+.one-reputation,.two-reputation,.three-reputation{
+    display: flex;
+}
+
+.reputation-content,.all-reputation{
+    margin-top: 25px;
+}
+
+.two-paragraph{
+    margin-top: 5px;
+}
+
+.paragraph-one{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: #000;
+}
+
+span{
+    color: #757575!important;
+    margin-left: 15px;
+}
+
+.price-container{
+    margin: 100px 0 50px;
+}
+
+.two-price{
+    margin-top: 25px;
+    display: flex;
+}
+
+.basic{
+    width: 45%;
+    height: 500px;
+    background-color: red;
+    margin: 0 25px;
+    text-align: center;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.pro{
+    width: 45%;
+    height: 500px;
+    background-color: blue;
+    text-align: center;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.left{
+    background-color: #616161;
+    color: white;
+    padding: 40px;
+    font-size: 25px;
+}
+
+.right{
+    background-color: black;
+    color: white;
+    padding: 40px;
+    font-size: 25px;
+    color: c5cfe;
+}
+
+ul li{
+    background-color: white;
+    padding: 16px 32px;
+    border-bottom: 1px solid #ddd;
+}
+
+.basic-six{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.basic-six span{
+    opacity: 0.60;
+    font-size: 15px;
+}
+
+.basic-seven{
+    background-color: #f1f1f1!important;
+}
+
+.basic-seven button{
+    background-color: white !important;
+    width: 120px;
+}
+
+.basic-seven button:hover{
+    background-color: black !important;
+    color: white;
+}
+
+.basic:hover{
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pro:hover{
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.fa-fw{
+    font-size: 36px !important;
+    text-align: center;
+    margin: 25px 0 0 25px;
+}
+
+.icon-paragraph{
+    display: inline-block;
+}
+
+.img_map{
+    margin-top: 25px;
+}
+
+.img_map img{
+    width: 94%;
+}
+
+.formulaire-container{
+    margin: 25px 0 25px 25px;
+}
+
+.formulaire-container p,input{
+    margin-bottom: 10px;
+}
+
+input{
+    display: block;
+    padding: 5px 0 5px 10px;
+    width: 95%;
+    height: 50px;
+    border: 1px solid #ccc!important;
+    font-size: 15px;
+}
+
+.send-content{
+    margin: 10px 0 25px ;
+}
+
+.send-content button{
+    margin: 0 0 50px ;
+}
+
+.footer-bar{
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    background-color: #f1f1f1;
+    padding-top: 80px;
+    color: #848383;
+}
+
+.icons{
+    font-size: 25px;
+    margin-bottom: 25px;
+}
